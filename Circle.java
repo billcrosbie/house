@@ -1,6 +1,7 @@
 import java.awt.*;
 import java.awt.geom.*;
 
+
 /**
  * A circle that can be manipulated and that draws itself on a canvas.
  * 
@@ -112,8 +113,8 @@ public class Circle
         else 
         {
             delta = 1;
+        
         }
-
         for(int i = 0; i < distance; i++)
         {
             xPosition += delta;
