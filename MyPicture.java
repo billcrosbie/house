@@ -10,7 +10,7 @@ public class MyPicture
     // instance variables - replace the example below with your own
     private Square wall;
     private Square window;
-    //private Triangle roof;
+    private Triangle roof;
     //private Circle sun;
     private boolean drawn;
 
@@ -22,7 +22,7 @@ public class MyPicture
         // initialise instance variables
         wall = new Square();
         window = new Square();
-        //roof = new Triangle();  
+        roof = new Triangle();  
         //sun = new Circle();
         drawn = false;
     }
@@ -45,10 +45,11 @@ public class MyPicture
             window.changeSize(40);
             window.makeVisible();
     
-            // roof.changeSize(60, 180);
-            // roof.moveHorizontal(20);
-            // roof.moveVertical(-60);
-            // roof.makeVisible();
+             roof.changeSize(60, 180);
+             roof.moveHorizontal(20);
+             roof.moveVertical(-60);
+             roof.changeColor("magenta");
+             roof.makeVisible();
     
             // sun.changeColor("yellow");
             // sun.moveHorizontal(100);
